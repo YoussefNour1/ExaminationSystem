@@ -3,14 +3,16 @@ namespace ExaminationSystem.Questions
 {
     public class TrueOrFalseQuestion : Question
     {
-        public bool Answer { get; set; } = false;
-        public TrueOrFalseQuestion(string Header, string Body, int Marks, bool _Answer) : base(Header, Body, Marks)
-        {
-            Answer = _Answer;
-        }
+        public bool CorrectAnswer { get; set; } = false;
+        
         public override string ToString()
         {
-            return $"{base.ToString()}\nTrue or False: {Answer}";
+            return $"(True/False){Header} \t\tMarks:{Marks} marks\n{Body}";
+        }
+
+        public override void Display()
+        {
+            System.Console.WriteLine($"(True/False){Header} \t\tMarks:{Marks} marks\n{Body}");
         }
     }
 }

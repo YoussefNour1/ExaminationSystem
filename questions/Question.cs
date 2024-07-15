@@ -6,6 +6,17 @@ namespace ExaminationSystem.Questions
         public string Body { get; set; }
         public int Marks { get; set; }
 
+        public Question(){
+        
+        }
+
+        public Question(string _Header, string _Body, int _Marks)
+        {
+            Header = _Header;
+            Body = _Body;
+            Marks = _Marks;
+        }
+
         public abstract void Display();
 
         public override string ToString()

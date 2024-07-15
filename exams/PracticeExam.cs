@@ -1,14 +1,14 @@
 namespace ExaminationSystem.Exams
 {
-    public class PracticeExam: Exam
+    public class PracticeExam(string time, int numberOfQuestions): Exam(time, numberOfQuestions)
     {
+        
         public override void ShowExam()
         {
             foreach (var QAP in QuestionAnswerDict)
             {
                 QAP.Key.Display();
-                Console.WriteLine("Correct Answer: ");
-                QAP.Value.DisplayAnwers();
+                // Console.WriteLine($"Answer: {string.Join(", ", QAP.Value)}");
                 Console.WriteLine();
             }
         }

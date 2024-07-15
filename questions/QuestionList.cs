@@ -3,7 +3,7 @@ namespace ExaminationSystem.Questions
 {
     public class QuestionList : List<Question>
     {
-        private string _LogFile;
+        private string _LogFile= "../QuestionList.log";
         public QuestionList(string LogFile)
         {
             _LogFile = LogFile;

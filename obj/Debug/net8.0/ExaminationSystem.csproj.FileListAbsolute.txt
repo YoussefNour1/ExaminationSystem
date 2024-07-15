@@ -1,0 +1,15 @@
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/obj/Debug/net8.0/ExaminationSystem.GeneratedMSBuildEditorConfig.editorconfig
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/obj/Debug/net8.0/ExaminationSystem.AssemblyInfoInputs.cache
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/obj/Debug/net8.0/ExaminationSystem.AssemblyInfo.cs
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/obj/Debug/net8.0/ExaminationSystem.csproj.CoreCompileInputs.cache
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/obj/Debug/net8.0/ExaminationSystem.sourcelink.json
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/bin/Debug/net8.0/ExaminationSystem
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/bin/Debug/net8.0/ExaminationSystem.deps.json
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/bin/Debug/net8.0/ExaminationSystem.runtimeconfig.json
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/bin/Debug/net8.0/ExaminationSystem.dll
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/bin/Debug/net8.0/ExaminationSystem.pdb
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/obj/Debug/net8.0/ExaminationSystem.dll
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/obj/Debug/net8.0/refint/ExaminationSystem.dll
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/obj/Debug/net8.0/ExaminationSystem.pdb
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/obj/Debug/net8.0/ExaminationSystem.genruntimeconfig.cache
+/home/mariam/DEPI/C#/GitHub/ExaminationSystem/obj/Debug/net8.0/ref/ExaminationSystem.dll

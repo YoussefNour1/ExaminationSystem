@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/mariam/DEPI/ExaminationSystem/ExaminationSystem.csproj": {}
+    "/home/mariam/DEPI/C#/GitHub/ExaminationSystem/ExaminationSystem.csproj": {}
   },
   "projects": {
-    "/home/mariam/DEPI/ExaminationSystem/ExaminationSystem.csproj": {
+    "/home/mariam/DEPI/C#/GitHub/ExaminationSystem/ExaminationSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/mariam/DEPI/ExaminationSystem/ExaminationSystem.csproj",
+        "projectUniqueName": "/home/mariam/DEPI/C#/GitHub/ExaminationSystem/ExaminationSystem.csproj",
         "projectName": "ExaminationSystem",
-        "projectPath": "/home/mariam/DEPI/ExaminationSystem/ExaminationSystem.csproj",
+        "projectPath": "/home/mariam/DEPI/C#/GitHub/ExaminationSystem/ExaminationSystem.csproj",
         "packagesPath": "/home/mariam/.nuget/packages/",
-        "outputPath": "/home/mariam/DEPI/ExaminationSystem/obj/",
+        "outputPath": "/home/mariam/DEPI/C#/GitHub/ExaminationSystem/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mariam/.nuget/NuGet/NuGet.Config"

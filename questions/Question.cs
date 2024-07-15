@@ -1,30 +1,40 @@
 namespace ExaminationSystem.Questions
 {
-    public abstract class Question(string? header, string? body, int? marks)
+    public abstract class Question : ICloneable, IComparable<Question>
     {
-        public string? Header { get; set; } = header;
-        public string? Body { get; set; } = body;
-        public int? Marks { get; set; } = marks;
+        public string Header { get; set; }
+        public string Body { get; set; }
+        public int Marks { get; set; }
+
+        public abstract void Display();
+
+        public override string ToString()
+        {
+            return $"{Header}\t\tMarks: {Marks} marks\nBody: {Body}";
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is Question question &&
+                   Header == question.Header &&
+                   Body == question.Body &&
+                   Marks == question.Marks;
+        }
 
         public override int GetHashCode()
         {
             return HashCode.Combine(Header, Body, Marks);
         }
 
-        public override string ToString()
+        public int CompareTo(Question other)
         {
-            return $"{Header}: \t{Marks} marks\n{Body}";
+            if (other == null) return 1;
+            return Marks.CompareTo(other.Marks);
         }
 
-        public override bool Equals(object? other)
+        public object Clone()
         {
-            if(other is Question obj)
-            {
-                return Header == obj.Header && Body == obj.Body && Marks == obj.Marks;
-            }
-            return false;
+            return MemberwiseClone();
         }
-
-
     }
 }

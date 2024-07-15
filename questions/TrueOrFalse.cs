@@ -12,7 +12,7 @@ namespace ExaminationSystem.Questions
 
         public override void Display()
         {
-            System.Console.WriteLine($"(True/False){Header} \t\tMarks:{Marks} marks\n{Body}");
+            Console.WriteLine(this);
         }
     }
 }

@@ -22,11 +22,7 @@ namespace ExaminationSystem.Questions
 
         public override void Display()
         {
-            Console.WriteLine($"{Header}: {Body}");
-            foreach (var option in Options)
-            {
-                Console.WriteLine(option);
-            }
+            Console.WriteLine(this);
         }
     }
 }
